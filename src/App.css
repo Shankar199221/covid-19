@@ -1,0 +1,72 @@
+.app{
+  background-color: #e9ecf2;
+  width: auto;
+  height: 100vh;
+}
+.container{
+  background-color: #ecd5ed;
+  margin: 2%;
+}
+.container__header{
+  background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  border-bottom: 2px solid grey;
+  display: flex;
+  
+}
+
+.container__header__img{
+  object-fit: contain;
+  margin: 5px;
+   width: 8rem;
+   height: 6rem;
+   border-radius: 20%;
+   flex: 0.1;
+}
+.container__header__sub{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex:0.8;
+}
+.container__header h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 2rem;
+ margin-left: 15px;
+ color: crimson;
+}
+.container__header__h1{
+  font-size: 3rem;
+  font-style: italic;
+  align-self: flex-end;
+}
+
+.container__body{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.container__body__sidebar{
+  margin-top: 0.3rem;
+  background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(248,181,0,1) 4%, rgba(252,205,77,1) 55%, rgba(251,223,147,1) 86%, rgba(251,223,147,1) 100%);
+  flex: 0.3;
+}
+.container__body__main{
+  flex: 0.7;
+  display: flex;
+  flex-wrap: wrap;
+   
+}
+.container__body__main__cardlts{
+ 
+  width: 20rem;
+  height: 8rem;
+  background-color:cornsilk;
+  margin: 3rem;
+  box-shadow: 33px 15px 5px 0px rgba(0,0,0,0.75);
+}
+.container__body__main__cardlts:hover{
+ 
+}
+.lists{
+  margin: 1rem;
+}
